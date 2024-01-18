@@ -1,0 +1,59 @@
+.d-flex {
+  display: flex;
+}
+.justify-center {
+  justify-content: center;
+}
+.justify-end {
+  justify-content: flex-end;
+}
+.justify-start {
+  justify-content: flex-end;
+}
+.item-center {
+  align-items: center;
+}
+.item-start {
+  align-items: flex-start;
+}
+.item-end {
+  align-items: flex-end;
+}
+
+.flex_container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.flex {
+  display: flex;
+}
+.padding_0 {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+[title] {
+  position: relative;
+  cursor: help;
+}
+[title]:hover::before {
+  content: attr(title);
+  position: absolute;
+  bottom: -46px;
+  padding: 10px;
+  color: #fff;
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+[title]:hover::after {
+  content: "";
+  position: absolute;
+  bottom: -8px;
+  left: 8px;
+  border: 8px solid transparent;
+  border-bottom: 8px solid #000;
+}
+

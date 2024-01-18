@@ -1,0 +1,68 @@
+{
+  "name": "jiffy-admin",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "@types/jwt-decode": "^3.1.0",
+    "@wojtekmaj/react-daterange-picker": "^3.0.0",
+    "animate.css": "^4.1.0",
+    "axios": "^0.19.2",
+    "bootstrap": "^4.5.0",
+    "chart.js": "^2.9.3",
+    "crypto-js": "^4.1.1",
+    "jwt-decode": "^2.2.0",
+    "moment": "^2.27.0",
+    "query-string": "^6.13.7",
+    "react": "^16.13.1",
+    "react-chartjs-2": "^2.9.0",
+    "react-content-loader": "^5.1.0",
+    "react-countup": "^4.3.3",
+    "react-custom-scrollbars": "^4.2.1",
+    "react-dom": "^16.13.1",
+    "react-dropzone": "^11.0.2",
+    "react-hook-form": "^7.28.0",
+    "react-icons": "^4.4.0",
+    "react-images-uploader": "^1.2.0-rc1",
+    "react-loadable": "^5.5.0",
+    "react-notification": "^6.8.5",
+    "react-notifications": "^1.6.0",
+    "react-redux": "^7.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.1",
+    "react-sidebar": "^3.0.2",
+    "react-slick": "^0.27.0",
+    "react-table-6": "^6.11.0",
+    "react-toastify": "^8.2.0",
+    "reactstrap": "^8.5.1",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0",
+    "sass": "^1.29.0",
+    "screenfull": "^5.0.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

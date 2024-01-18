@@ -1,0 +1,7 @@
+
+.date-picker-custom > div{
+    padding : 03px;
+    border: 1px solid #5D92F4;
+    border-radius: 0.25rem;
+    background-color: #fff;
+}   
